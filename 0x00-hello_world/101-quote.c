@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - Prints a line of code to a new line to an error
  *
- * Return: Always 1
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
