@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-intel main(void)
+int main(void)
 {
 
 	char q;
