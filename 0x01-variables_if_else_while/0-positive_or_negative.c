@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print a random number and states whether 
- * it is positive, nagative or zero.
+ * main - print if the number is positive, nagative or zero.
  *
  * Return: Always 0.
 */
