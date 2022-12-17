@@ -1,15 +1,23 @@
 #include <stdio.h>
 /**
  * main - main block
- * Discription: Get a random it with 6
- * Return 0
+ * Description: print  the alphabet in lowercase
+ * and the in uppercase, follow by a new line
+ * Return: 0
  */
 int main(void)
 {
-
 	char c = 'a';
 
 	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';
+
+	while (c <= 'Z')
 	{
 		putchar(c);
 		c++;
