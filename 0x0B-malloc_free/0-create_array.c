@@ -7,7 +7,7 @@
  * @size: unassigned interger
  * @c: charcter
  * Return: NULL if size = 0 or a pointer to the array, or NULL if it fails
- * */
+ */
 
 char *create_array(unsigned int size, char c)
 {
