@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * _strlen_recrusion - Calculate the lenght of a string
  * @s: the string to count
  *
