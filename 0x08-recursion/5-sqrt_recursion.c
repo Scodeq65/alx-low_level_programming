@@ -15,15 +15,16 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt calculates the natural square root
+ * _sqrt_recursion - calculates the natural square root
  * @n: number to calculate the square root
  * @i: iterate number
  *
  * Return: the natural square root
  */
-int _sqrt(int n, int i)
+int _sqrt_recursion(int n, int i)
 {
 	int sqrt = i * i;
+
 	if (sqrt > n)
 		return (-1);
 	if (sqrt == n)
