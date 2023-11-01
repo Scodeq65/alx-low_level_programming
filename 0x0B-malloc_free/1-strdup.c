@@ -14,20 +14,16 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	while (str[lenght])
-		lenght++;
+	i = 0;
+	while (str[i] != '\0')
+		i++;
 
-	sss = (char *)malloc((lenght + 1) * sizeof(char));
+	sss = malloc(sizeof(char) * (i + 1));
 
 	if (sss == NULL)
 		return (NULL);
-	while (i < lenght)
 
-	{
+	for (lenght = 0; str[lenght]; lenght++)
 		sss[i] = str[i];
-		i++;
-	}
-	sss[i] = '\0';
-
 	return (sss);
 }
