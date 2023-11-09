@@ -4,7 +4,7 @@
  * int_index - search for an int
  * @array: target array hoilding int
  * @size: size of the array
- * cmp: is the pointer to the function to be used
+ * @cmp: the function pinter to compare search intteger
  *
  * Return: int element match, -1 if size <= 0
  */
