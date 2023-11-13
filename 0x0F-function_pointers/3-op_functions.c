@@ -4,7 +4,7 @@
 
 /**
  * op_add - sum up two numbers
- * @a: first numbere 
+ * @a: first number
  * @b: second number
  *
  * Return: the sum of a + b
